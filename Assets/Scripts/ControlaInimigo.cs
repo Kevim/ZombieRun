@@ -12,20 +12,25 @@ public class ControlaInimigo : MonoBehaviour
     public float pararDistanciaPersonagem = 2.5F;
 
     private static string ATACANDO_STRING = "Atacando";
+    private static string JOGADOR_STRING = "Jogador";
+    private static string PONTUACAO_STRING = "Pontuacao";
 
     private Animator animatorInimigo;
 
     private Rigidbody rigidbodyInimigo;
+    private Pontuacao pontuacao;
 
     // Start is called before the first frame update
     void Start()
     {
-        Jogador = GameObject.FindWithTag("Jogador");
+        Jogador = GameObject.FindWithTag(JOGADOR_STRING);
         int randomZombieSkin = Random.Range(1, 28);
         transform.GetChild(randomZombieSkin).gameObject.SetActive(true);
 
         animatorInimigo = GetComponent<Animator>();
         rigidbodyInimigo = GetComponent<Rigidbody>();
+
+        pontuacao = GameObject.FindWithTag(PONTUACAO_STRING).GetComponent<Pontuacao>();
     }
 
     // Update is called once per frame
@@ -65,5 +70,10 @@ public class ControlaInimigo : MonoBehaviour
             Jogador.GetComponent<ControlaJogador>();
         controlaJogador.TextoGameOver.SetActive(true);
         controlaJogador.Vivo = false;
+    }
+
+    void OnDestroy()
+    {
+        pontuacao.IncreaseScore(1f);
     }
 }

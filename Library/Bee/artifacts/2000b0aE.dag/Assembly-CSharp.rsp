@@ -335,6 +335,7 @@
 "Assets/Scripts/ControlaJogador.cs"
 "Assets/Scripts/GeradorInimigos.cs"
 "Assets/Scripts/MainCamera.cs"
+"Assets/Scripts/Pontuacao.cs"
 -langversion:9.0
 
 /deterministic
