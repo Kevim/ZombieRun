@@ -13,6 +13,7 @@ public class ControlaInimigo : MonoBehaviour
     public float RaioVisao = 15F;
     public int DanoMin = 20;
     public int DanoMax = 30;
+    public AudioClip SomMorte;
 
     private Animator animatorInimigo;
 
@@ -77,5 +78,6 @@ public class ControlaInimigo : MonoBehaviour
     void OnDestroy()
     {
         this.pontuacao.IncreaseScore(1f);
+        ControlaAudio.instancia.PlayOneShot(this.SomMorte);
     }
 }

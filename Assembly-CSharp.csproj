@@ -40,12 +40,14 @@
      <Compile Include="Assets\Scripts\ControlaInimigo.cs" />
      <Compile Include="Assets\Scripts\ControlaArma.cs" />
      <Compile Include="Assets\Scripts\Pontuacao.cs" />
+     <Compile Include="Assets\Scripts\Constantes.cs" />
      <Compile Include="Assets\Scripts\MainCamera.cs" />
+     <Compile Include="Assets\Scripts\utils\CalcUtils.cs" />
+     <Compile Include="Assets\Scripts\ControlaInterface.cs" />
      <Compile Include="Assets\Scripts\GeradorInimigos.cs" />
      <Compile Include="Assets\Scripts\Bala.cs" />
-     <Compile Include="Assets\Scripts\ControlaInterface.cs" />
-     <Compile Include="Assets\Scripts\Constantes.cs" />
-     <Compile Include="Assets\Scripts\utils\CalcUtils.cs" />
+     <Compile Include="Assets\Scripts\ControlaAudio.cs" />
+     <Compile Include="Assets\Scripts\MovimentoPersonagem.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -711,6 +713,9 @@
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
         <HintPath>C:\Users\Bruno\3D ZombieRun\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+        <HintPath>C:\Users\Bruno\3D ZombieRun\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
         <HintPath>C:\Users\Bruno\3D ZombieRun\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
@@ -755,9 +760,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
         <HintPath>C:\Users\Bruno\3D ZombieRun\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>C:\Users\Bruno\3D ZombieRun\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

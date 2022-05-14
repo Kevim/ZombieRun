@@ -19,6 +19,8 @@ public class ControlaJogador : MonoBehaviour
 
     public ControlaInterface controlaInterface;
 
+    public AudioClip SomDano;
+
     private static string MOVENDO_STRING = "Movendo";
 
     private Vector3 direcao;
@@ -165,12 +167,14 @@ public class ControlaJogador : MonoBehaviour
             // Debug.Log("Forward: " + transform.forward);
             // Debug.Log("direcao: " + direcao);
             // Debug.Log("vector: " + vector);
+            Vector3 angularVelocity = new Vector3(1, 1, 1);
             this.rigidbodyJogador.velocity = vector * velocidade;
             //Debug.Log("velocity: " + this.rigidbodyJogador.velocity);
         }
         else
         {
             this.rigidbodyJogador.velocity = Vector3.zero;
+            this.rigidbodyJogador.angularVelocity = Vector3.zero;
         }
     }
 
@@ -178,6 +182,7 @@ public class ControlaJogador : MonoBehaviour
     {
         this.Vida -= valorDano;
         controlaInterface.AtualizarSliderVidaJogador();
+        ControlaAudio.instancia.PlayOneShot(this.SomDano); 
         verificaMorte();
     }
 

@@ -333,11 +333,13 @@
 "Assets/Scripts/Bala.cs"
 "Assets/Scripts/Constantes.cs"
 "Assets/Scripts/ControlaArma.cs"
+"Assets/Scripts/ControlaAudio.cs"
 "Assets/Scripts/ControlaInimigo.cs"
 "Assets/Scripts/ControlaInterface.cs"
 "Assets/Scripts/ControlaJogador.cs"
 "Assets/Scripts/GeradorInimigos.cs"
 "Assets/Scripts/MainCamera.cs"
+"Assets/Scripts/MovimentoPersonagem.cs"
 "Assets/Scripts/Pontuacao.cs"
 "Assets/Scripts/utils/CalcUtils.cs"
 -langversion:9.0
