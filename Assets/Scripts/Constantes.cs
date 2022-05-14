@@ -4,4 +4,5 @@ public class Constantes {
     public const string TAG_PONTUACAO = "Pontuacao";
 
     public const string ANIMACAO_ATACANDO = "Atacando";
+    public const string MOVENDO_STRING = "Movendo";
 }

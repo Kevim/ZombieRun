@@ -7,6 +7,7 @@ public class ControlaArma : MonoBehaviour
     public GameObject Bala;
     public GameObject CanoArma;
     public float fireRate = 0.1f;
+    public AudioClip SomTiro;
     private float contador = 0f;
 
     // Start is called before the first frame update
@@ -22,6 +23,7 @@ public class ControlaArma : MonoBehaviour
 
         if (contador >= fireRate && (Input.GetButtonDown("Fire1") || Input.GetMouseButton(0))){
             Instantiate(Bala, CanoArma.transform.position, CanoArma.transform.rotation);
+            ControlaAudio.instancia.PlayOneShot(this.SomTiro);
             contador = 0;
         }
     }
