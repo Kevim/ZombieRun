@@ -9,28 +9,31 @@ public class ControlaInimigo : MonoBehaviour
 
     public float Velocidade = 5;
 
-    public float pararDistanciaPersonagem = 2.5F;
-
-    private static string ATACANDO_STRING = "Atacando";
-    private static string JOGADOR_STRING = "Jogador";
-    private static string PONTUACAO_STRING = "Pontuacao";
+    public float PararDistanciaPersonagem = 2.5F;
+    public float RaioVisao = 15F;
+    public int DanoMin = 20;
+    public int DanoMax = 30;
 
     private Animator animatorInimigo;
 
     private Rigidbody rigidbodyInimigo;
     private Pontuacao pontuacao;
+    private ControlaJogador controlaJogador;
 
     // Start is called before the first frame update
     void Start()
     {
-        Jogador = GameObject.FindWithTag(JOGADOR_STRING);
+        this.Jogador = GameObject.FindWithTag(Constantes.TAG_JOGADOR);
+        
+        this.controlaJogador = this.Jogador.GetComponent<ControlaJogador>();
+
         int randomZombieSkin = Random.Range(1, 28);
         transform.GetChild(randomZombieSkin).gameObject.SetActive(true);
 
-        animatorInimigo = GetComponent<Animator>();
-        rigidbodyInimigo = GetComponent<Rigidbody>();
+        this.animatorInimigo = GetComponent<Animator>();
+        this.rigidbodyInimigo = GetComponent<Rigidbody>();
 
-        pontuacao = GameObject.FindWithTag(PONTUACAO_STRING).GetComponent<Pontuacao>();
+        this.pontuacao = GameObject.FindWithTag(Constantes.TAG_PONTUACAO).GetComponent<Pontuacao>();
     }
 
     // Update is called once per frame
@@ -41,39 +44,38 @@ public class ControlaInimigo : MonoBehaviour
     void FixedUpdate()
     {
         float distancia =
-            Vector3.Distance(transform.position, Jogador.transform.position);
+            Vector3.Distance(transform.position, this.Jogador.transform.position);
 
-        Vector3 direcao = Jogador.transform.position - transform.position;
+        Vector3 direcao = this.Jogador.transform.position - transform.position;
+        if (distancia < RaioVisao){ 
 
-        Quaternion novaRotacao = Quaternion.LookRotation(direcao);
-        rigidbodyInimigo.MoveRotation (novaRotacao);
+            Quaternion novaRotacao = Quaternion.LookRotation(direcao);
+            this.rigidbodyInimigo.MoveRotation (novaRotacao);
 
-        if (distancia > pararDistanciaPersonagem)
-        {
-            rigidbodyInimigo
-                .MovePosition(rigidbodyInimigo.position +
-                (direcao.normalized * Velocidade * Time.deltaTime));
+            if (distancia > PararDistanciaPersonagem)
+            {
+                this.rigidbodyInimigo
+                    .MovePosition(this.rigidbodyInimigo.position +
+                    (direcao.normalized * Velocidade * Time.deltaTime));
 
-            animatorInimigo.SetBool(ATACANDO_STRING, false);
-        }
-        else
-        {
-            // atacar
-            animatorInimigo.SetBool(ATACANDO_STRING, true);
+                this.animatorInimigo.SetBool(Constantes.ANIMACAO_ATACANDO, false);
+            }
+            else
+            {
+                // atacar
+                this.animatorInimigo.SetBool(Constantes.ANIMACAO_ATACANDO, true);
+            }
         }
     }
 
     public void AtacaJogador()
     {
-        Time.timeScale = 0;
-        ControlaJogador controlaJogador =
-            Jogador.GetComponent<ControlaJogador>();
-        controlaJogador.TextoGameOver.SetActive(true);
-        controlaJogador.Vivo = false;
+        int dano = Random.Range(this.DanoMin, this.DanoMax);
+        this.controlaJogador.TomarDano(dano);
     }
 
     void OnDestroy()
     {
-        pontuacao.IncreaseScore(1f);
+        this.pontuacao.IncreaseScore(1f);
     }
 }

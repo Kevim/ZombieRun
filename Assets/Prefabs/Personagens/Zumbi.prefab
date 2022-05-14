@@ -658,7 +658,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Jogador: {fileID: 0}
   Velocidade: 5
-  pararDistanciaPersonagem: 2.5
+  PararDistanciaPersonagem: 2.5
+  RaioVisao: 20
+  Dano: 20
 --- !u!54 &982061232515392713
 Rigidbody:
   m_ObjectHideFlags: 0
