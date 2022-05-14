@@ -2586,6 +2586,8 @@ GameObject:
   - component: {fileID: 2755105127700400103}
   - component: {fileID: 282236337}
   - component: {fileID: 5921171676119544464}
+  - component: {fileID: 5192417508850537207}
+  - component: {fileID: 689592662546400927}
   m_Layer: 0
   m_Name: Personagens
   m_TagString: Jogador
@@ -2720,6 +2722,30 @@ MonoBehaviour:
   CanoArma: {fileID: 152191310}
   fireRate: 0.1
   SomTiro: {fileID: 8300000, guid: c37d8d936bc936446ab7e7d3c81960f2, type: 3}
+--- !u!114 &5192417508850537207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884102019447498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 608fa64a9bd5b2142b8da63266ec6b96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &689592662546400927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884102019447498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e086b75201b35d74f869ae6c7d1c0c49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1938851689004064
 GameObject:
   m_ObjectHideFlags: 0
