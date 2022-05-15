@@ -4,28 +4,84 @@ using UnityEngine;
 
 public class GeradorInimigos : MonoBehaviour
 {
-
     public GameObject Zumbi;
-    public int SpawnLimite = 1;
+
+    public bool Spawn = true;
+
+    public int SpawnLimit = 1;
+
     public float SpawnTime = 1;
+
+    public int SpawnAmount = 1;
+
+    public LayerMask layerZumbi;
+
     private float contador = 0;
 
-    // Start is called before the first frame update
+    private float distanciaGeracao = 3;
+    public float DistanciaDoJogadorParaGeracao = 30;
+    private GameObject jogador;
+
     void Start()
     {
-        
+        jogador = GameObject.FindWithTag(Constantes.TAG_JOGADOR);
     }
 
     // Update is called once per frame
     void Update()
     {
-        contador += Time.deltaTime;
+        float distanciaDoJogador = Vector3.Distance(transform.position, jogador.transform.position);
+        if (Spawn && distanciaDoJogador > DistanciaDoJogadorParaGeracao)
+        {
+            contador += Time.deltaTime;
 
-        if (SpawnLimite > 0 && contador >= SpawnTime) {
-            SpawnLimite--;
-            contador = 0;
-            Instantiate(Zumbi, transform.position, transform.rotation);
+            if (contador >= SpawnTime)
+            {
+                StartCoroutine(GerarNovoZumbi(SpawnAmount));
+            }
         }
-        
+    }
+
+    IEnumerator GerarNovoZumbi(int spawnAmount)
+    {
+        while (spawnAmount > 0 && SpawnLimit > 0)
+        {
+            Vector3 finalPos = Vector3.zero;
+            bool hasPos = false;
+            while (!hasPos)
+            {
+                Vector3 pos = AleatorizarPosicao();
+                Collider[] colisores =
+                    Physics.OverlapSphere(pos, 1, layerZumbi);
+                if (colisores.Length == 0)
+                {
+                    finalPos = pos;
+                    hasPos = true;
+                }
+                else
+                {
+                    yield return null;
+                }
+            }
+            Instantiate(Zumbi, finalPos, transform.rotation);
+            SpawnLimit--;
+            contador = 0;
+            spawnAmount--;
+            yield return null;
+        }
+    }
+
+    private Vector3 AleatorizarPosicao()
+    {
+        Vector3 pos = Random.insideUnitSphere * this.distanciaGeracao;
+        pos += transform.position;
+        pos.y = 0;
+        return pos;
+    }
+
+    void OnDrawGizmos()
+    {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, this.distanciaGeracao);
     }
 }
