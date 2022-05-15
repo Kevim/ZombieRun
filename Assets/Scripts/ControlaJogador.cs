@@ -3,23 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ControlaJogador : MonoBehaviour
+public class ControlaJogador : MonoBehaviour, IMatavel
 {
-    public float Velocidade = 10;
-
-    public float VelocidadeRotacao = 5;
-
     public LayerMask MascaraChao;
 
     public GameObject TextoGameOver;
-
-    public int Vida = 100;
 
     public bool Vivo = true;
 
     public ControlaInterface controlaInterface;
 
     public AudioClip SomDano;
+    [HideInInspector]
+    public Status statusJogador;
 
     private Vector3 direcao;
 
@@ -37,6 +33,7 @@ public class ControlaJogador : MonoBehaviour
         TextoGameOver.SetActive(false);
         this.animacaoPersonagem = GetComponent<AnimacaoPersonagem>();
         this.movimentoJogador = GetComponent<MovimentoJogador>();
+        this.statusJogador = GetComponent<Status>();
     }
 
     void Update()
@@ -56,25 +53,25 @@ public class ControlaJogador : MonoBehaviour
 
     private void FixedUpdate()
     {
-        this.movimentoJogador.Movimentar(this.direcao, this.Velocidade);
+        this.movimentoJogador.Movimentar(this.direcao, this.statusJogador.Velocidade);
 
         this.movimentoJogador.RotacionarJogador(this.MascaraChao);
     }
 
     public void TomarDano(int valorDano)
     {
-        this.Vida -= valorDano;
+        this.statusJogador.Vida -= valorDano;
         controlaInterface.AtualizarSliderVidaJogador();
         ControlaAudio.instancia.PlayOneShot(this.SomDano);
-        verificaMorte();
+        VerificaMorte();
     }
 
-    private void verificaMorte()
+    public void VerificaMorte()
     {
-        if (this.Vida <= 0)
+        if (this.statusJogador.Vida <= 0)
         {
             Time.timeScale = 0;
-            this.Vida = 0;
+            this.statusJogador.Vida = 0;
             this.Vivo = false;
             this.TextoGameOver.SetActive(true);
         }

@@ -72,7 +72,7 @@ public class MovimentoPersonagem : MonoBehaviour
             }
 
             Vector3 vector = new Vector3(eixoX, 0, eixoZ);
-            this.rb.velocity = vector * velocidade;
+            this.rb.velocity = vector.normalized * velocidade;
         }
         else
         {

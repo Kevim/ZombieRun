@@ -12,11 +12,11 @@ public class ControlaInterface : MonoBehaviour
     void Start()
     {
         controlaJogador = GameObject.FindWithTag(Constantes.TAG_JOGADOR).GetComponent<ControlaJogador>();
-        SliderVidaJogador.maxValue = controlaJogador.Vida;
+        SliderVidaJogador.maxValue = controlaJogador.statusJogador.Vida;
         AtualizarSliderVidaJogador();
     }
 
     public void AtualizarSliderVidaJogador() {
-        SliderVidaJogador.value = controlaJogador.Vida;
+        SliderVidaJogador.value = controlaJogador.statusJogador.Vida;
     }
 }

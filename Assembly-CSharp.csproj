@@ -36,20 +36,22 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\AnimacaoPersonagem.cs" />
      <Compile Include="Assets\Scripts\ControlaJogador.cs" />
      <Compile Include="Assets\Scripts\ControlaInimigo.cs" />
      <Compile Include="Assets\Scripts\ControlaArma.cs" />
      <Compile Include="Assets\Scripts\Pontuacao.cs" />
      <Compile Include="Assets\Scripts\Constantes.cs" />
+     <Compile Include="Assets\Scripts\MovimentoJogador.cs" />
+     <Compile Include="Assets\Scripts\IMatavel.cs" />
+     <Compile Include="Assets\Scripts\ControlaAudio.cs" />
      <Compile Include="Assets\Scripts\MainCamera.cs" />
      <Compile Include="Assets\Scripts\utils\CalcUtils.cs" />
      <Compile Include="Assets\Scripts\ControlaInterface.cs" />
+     <Compile Include="Assets\Scripts\Status.cs" />
      <Compile Include="Assets\Scripts\GeradorInimigos.cs" />
-     <Compile Include="Assets\Scripts\Bala.cs" />
-     <Compile Include="Assets\Scripts\ControlaAudio.cs" />
      <Compile Include="Assets\Scripts\MovimentoPersonagem.cs" />
-     <Compile Include="Assets\Scripts\AnimacaoPersonagem.cs" />
-     <Compile Include="Assets\Scripts\MovimentoJogador.cs" />
+     <Compile Include="Assets\Scripts\Bala.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

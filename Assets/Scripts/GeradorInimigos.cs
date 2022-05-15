@@ -6,6 +6,7 @@ public class GeradorInimigos : MonoBehaviour
 {
 
     public GameObject Zumbi;
+    public int SpawnLimite = 1;
     public float SpawnTime = 1;
     private float contador = 0;
 
@@ -20,7 +21,8 @@ public class GeradorInimigos : MonoBehaviour
     {
         contador += Time.deltaTime;
 
-        if (contador >= SpawnTime) {
+        if (SpawnLimite > 0 && contador >= SpawnTime) {
+            SpawnLimite--;
             contador = 0;
             Instantiate(Zumbi, transform.position, transform.rotation);
         }

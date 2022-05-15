@@ -7,6 +7,7 @@ public class Bala : MonoBehaviour
     public float Velocidade = 20;
 
     private Rigidbody rigidbodyBala;
+    private int danoTiro = 1;
 
     void Start()
     {
@@ -23,9 +24,9 @@ public class Bala : MonoBehaviour
 
     void OnTriggerEnter(Collider objetoDeColisao)
     {
-        if (objetoDeColisao.tag == "Inimigo")
+        if (objetoDeColisao.tag == Constantes.TAG_INIMIGO)
         {
-            Destroy(objetoDeColisao.gameObject);
+            objetoDeColisao.GetComponent<ControlaInimigo>().TomarDano(this.danoTiro);
         }
         Destroy (gameObject);
     }

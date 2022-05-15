@@ -339,10 +339,12 @@
 "Assets/Scripts/ControlaInterface.cs"
 "Assets/Scripts/ControlaJogador.cs"
 "Assets/Scripts/GeradorInimigos.cs"
+"Assets/Scripts/IMatavel.cs"
 "Assets/Scripts/MainCamera.cs"
 "Assets/Scripts/MovimentoJogador.cs"
 "Assets/Scripts/MovimentoPersonagem.cs"
 "Assets/Scripts/Pontuacao.cs"
+"Assets/Scripts/Status.cs"
 "Assets/Scripts/utils/CalcUtils.cs"
 -langversion:9.0
 
