@@ -665,6 +665,7 @@ MonoBehaviour:
   DanoMin: 20
   DanoMax: 30
   SomMorte: {fileID: 8300000, guid: 548b5f73c186d9e4fb1cfb616caad786, type: 3}
+  KitMedicoPrefab: {fileID: 1060151288946202, guid: 6150c6f66b7034ec5b3672478195682a, type: 3}
 --- !u!54 &982061232515392713
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -13,12 +13,14 @@ UnityEngine.Animations.AnimationLayerMixerPlayable::SetSingleLayerOptimizationIn
 UnityEngine.Animator::get_hasBoundPlayables
 UnityEngine.Animator::ResetTriggerString
 UnityEngine.Animator::SetBoolString
+UnityEngine.Animator::SetFloatString
 UnityEngine.Animator::SetTriggerString
 UnityEngine.Application::get_isBatchMode
 UnityEngine.Application::get_isFocused
 UnityEngine.Application::get_isPlaying
 UnityEngine.Application::get_platform
 UnityEngine.AsyncOperation::InternalDestroy
+UnityEngine.AudioSource::PlayOneShotHelper
 UnityEngine.Behaviour::get_enabled
 UnityEngine.Behaviour::get_isActiveAndEnabled
 UnityEngine.Behaviour::set_enabled
@@ -172,6 +174,8 @@ UnityEngine.GameObject::Internal_AddComponentWithType
 UnityEngine.GameObject::TryGetComponentInternal
 UnityEngine.GameObject::FindGameObjectWithTag
 UnityEngine.GameObject::get_transform
+UnityEngine.Gizmos::DrawWireSphere_Injected
+UnityEngine.Gizmos::set_color_Injected
 UnityEngine.GL::Begin
 UnityEngine.GL::End
 UnityEngine.GL::GLClear_Injected
@@ -385,6 +389,7 @@ UnityEngine.Object::Internal_InstantiateSingle_Injected
 UnityEngine.ObjectGUIState::Internal_Create
 UnityEngine.ObjectGUIState::Internal_Destroy
 UnityEngine.Physics::get_defaultPhysicsScene_Injected
+UnityEngine.Physics::OverlapSphere_Internal_Injected
 UnityEngine.Physics::Internal_RaycastAll_Injected
 UnityEngine.PhysicsScene::Internal_RaycastTest_Injected
 UnityEngine.PhysicsScene::Internal_Raycast_Injected
@@ -406,6 +411,7 @@ UnityEngine.Quaternion::Internal_FromEulerRad_Injected
 UnityEngine.Quaternion::Inverse_Injected
 UnityEngine.Quaternion::LookRotation_Injected
 UnityEngine.Random::RandomRangeInt
+UnityEngine.Random::get_insideUnitSphere_Injected
 UnityEngine.RectOffset::get_bottom
 UnityEngine.RectOffset::get_horizontal
 UnityEngine.RectOffset::get_left
@@ -469,6 +475,7 @@ UnityEngine.ResourcesAPIInternal::FindShaderByName
 UnityEngine.Rigidbody::MovePosition_Injected
 UnityEngine.Rigidbody::MoveRotation_Injected
 UnityEngine.Rigidbody::get_position_Injected
+UnityEngine.Rigidbody::set_velocity_Injected
 UnityEngine.SceneManagement.SceneManager::get_sceneCount
 UnityEngine.SceneManagement.SceneManager::GetSceneAt_Injected
 UnityEngine.SceneManagement.SceneManagerAPIInternal::LoadSceneAsyncNameIndexInternal_Injected
@@ -558,6 +565,7 @@ UnityEngine.Texture3D::Internal_CreateImpl
 UnityEngine.Texture3D::get_isReadable
 UnityEngine.Time::get_deltaTime
 UnityEngine.Time::get_realtimeSinceStartup
+UnityEngine.Time::get_timeSinceLevelLoad
 UnityEngine.Time::get_unscaledDeltaTime
 UnityEngine.Time::get_unscaledTime
 UnityEngine.Time::set_timeScale

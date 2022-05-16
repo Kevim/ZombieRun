@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Bala : MonoBehaviour
 {
-    public float Velocidade = 20;
+    public float Velocidade = 30;
 
     private Rigidbody rigidbodyBala;
 

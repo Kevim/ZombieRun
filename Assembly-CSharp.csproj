@@ -52,6 +52,8 @@
      <Compile Include="Assets\Scripts\GeradorInimigos.cs" />
      <Compile Include="Assets\Scripts\MovimentoPersonagem.cs" />
      <Compile Include="Assets\Scripts\Bala.cs" />
+     <Compile Include="Assets\Scripts\KitMedico.cs" />
+     <Compile Include="Assets\Scripts\ICuravel.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

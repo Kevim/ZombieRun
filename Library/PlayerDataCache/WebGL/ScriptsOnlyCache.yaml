@@ -1,12 +1,21 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AnimacaoPersonagem
     - Bala
     - ControlaArma
+    - ControlaAudio
     - ControlaInimigo
+    - ControlaInterface
     - ControlaJogador
     - GeradorInimigos
     - MainCamera
+    - MovimentoJogador
+    - MovimentoPersonagem
+    - Pontuacao
+    - Status
+    Unity.PlasticSCM.Editor.dll:
+    - Unity.PlasticSCM.Editor.PlasticWindow
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -15,8 +24,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
-    Unity.Timeline.Editor.dll:
-    - TimelineProjectSettings
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -32,8 +39,11 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Slider
   serializedClasses:
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
@@ -51,15 +61,26 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Style
     - TMPro.VertexGradient
     UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
     UnityEngine.TextCoreFontEngineModule:
     - UnityEngine.TextCore.FaceInfo
     - UnityEngine.TextCore.Glyph
     - UnityEngine.TextCore.GlyphMetrics
     - UnityEngine.TextCore.GlyphRect
     UnityEngine.UI:
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
-  methodsToPreserve: []
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.Slider/SliderEvent
+    - UnityEngine.UI.SpriteState
+  methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: ControlaInterface
+    methodName: Reiniciar
   sceneClasses:
     Assets/game.unity:
     - Class: 1
@@ -92,6 +113,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 90
@@ -105,35 +130,55 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2054}
+      Script: {instanceID: 1586}
     - Class: 114
-      Script: {instanceID: 2178}
+      Script: {instanceID: 1876}
     - Class: 114
-      Script: {instanceID: 2612}
+      Script: {instanceID: 2088}
     - Class: 114
-      Script: {instanceID: 2828}
+      Script: {instanceID: 2212}
     - Class: 114
-      Script: {instanceID: 2838}
+      Script: {instanceID: 2656}
     - Class: 114
-      Script: {instanceID: 3026}
+      Script: {instanceID: 2872}
     - Class: 114
-      Script: {instanceID: 4208}
+      Script: {instanceID: 2882}
     - Class: 114
-      Script: {instanceID: 4476}
+      Script: {instanceID: 3070}
     - Class: 114
-      Script: {instanceID: 4644}
+      Script: {instanceID: 3072}
     - Class: 114
-      Script: {instanceID: 5240}
+      Script: {instanceID: 3188}
     - Class: 114
-      Script: {instanceID: 5846}
+      Script: {instanceID: 3532}
     - Class: 114
-      Script: {instanceID: 5998}
+      Script: {instanceID: 4268}
     - Class: 114
-      Script: {instanceID: 6340}
+      Script: {instanceID: 4402}
     - Class: 114
-      Script: {instanceID: 7818}
+      Script: {instanceID: 4540}
     - Class: 114
-      Script: {instanceID: 40788}
+      Script: {instanceID: 4716}
+    - Class: 114
+      Script: {instanceID: 5228}
+    - Class: 114
+      Script: {instanceID: 5318}
+    - Class: 114
+      Script: {instanceID: 5464}
+    - Class: 114
+      Script: {instanceID: 5600}
+    - Class: 114
+      Script: {instanceID: 5690}
+    - Class: 114
+      Script: {instanceID: 5696}
+    - Class: 114
+      Script: {instanceID: 5936}
+    - Class: 114
+      Script: {instanceID: 6092}
+    - Class: 114
+      Script: {instanceID: 6444}
+    - Class: 114
+      Script: {instanceID: 7932}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -148,11 +193,15 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 258
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -211,7 +260,13 @@ ScriptsOnlyBuild:
     className: UnityOnMouseExitMessageListener
   - hash:
       serializedVersion: 2
-      Hash: f35872a13b5718c3f4a46eb5b873ed23
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AnimacaoPersonagem
+  - hash:
+      serializedVersion: 2
+      Hash: d85fb1d90570f0ca98c2dcaf0250212a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ControlaJogador
@@ -313,7 +368,7 @@ ScriptsOnlyBuild:
     className: TestRunCallbackListener
   - hash:
       serializedVersion: 2
-      Hash: 8e510ab4909a1b6b663d6e93271a5c8e
+      Hash: f7d755cbc1c60143fa9a679b768c1fe5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ControlaInimigo
@@ -367,10 +422,16 @@ ScriptsOnlyBuild:
     className: UnityOnDropdownValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: f5a3a44fc88bd66f367bbc2739e94996
+      Hash: 96d3e5fd6767700fd7df0572804d0edd
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ControlaArma
+  - hash:
+      serializedVersion: 2
+      Hash: 1689aae90b7abbc1dadd233a946bac69
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Pontuacao
   - hash:
       serializedVersion: 2
       Hash: 0fd6822f6177297bd0eb4d83cc7a9030
@@ -437,6 +498,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MovimentoJogador
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -553,6 +620,12 @@ ScriptsOnlyBuild:
     className: DictionaryAsset
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ControlaAudio
+  - hash:
+      serializedVersion: 2
       Hash: 6980e81ddc615a861309d2d659cc3760
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -571,7 +644,7 @@ ScriptsOnlyBuild:
     className: UnityOnCancelMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 03fa429829e06f070a752482313422ee
+      Hash: 8ce124fe02ac7f347e452be388c43abd
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MainCamera
@@ -667,6 +740,12 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
+      Hash: 72c14514f4fa312c73ae4700d0a9fb9c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ControlaInterface
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -695,6 +774,24 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 2f9916ee4ffe632aee42f1202d5c2ce9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Status
+  - hash:
+      serializedVersion: 2
+      Hash: e783bd7bebd1a89af8127233b35ab4cb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GeradorInimigos
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MovimentoPersonagem
   - hash:
       serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
@@ -959,12 +1056,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: c58dfb7f4d71c2fb228e8d2c2724e9c1
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GeradorInimigos
   platform: 20
   scenePathNames:
   - Assets/game.unity

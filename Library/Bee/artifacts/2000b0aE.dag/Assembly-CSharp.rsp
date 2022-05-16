@@ -100,7 +100,6 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"C:/Users/Bruno/3D ZombieRun/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
 -r:"C:/Users/Bruno/3D ZombieRun/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"C:/Users/Bruno/3D ZombieRun/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Y:/UnityHub/UnityEditor/2021.3.2f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
@@ -306,11 +305,7 @@
 -r:"Library/Bee/artifacts/2000b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
--r:"Library/Bee/artifacts/2000b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/Unity.Rider.Editor.ref.dll"
--r:"Library/Bee/artifacts/2000b0aE.dag/Unity.Services.Core.Analytics.ref.dll"
--r:"Library/Bee/artifacts/2000b0aE.dag/Unity.Services.Core.Environments.ref.dll"
--r:"Library/Bee/artifacts/2000b0aE.dag/Unity.Services.Core.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/Unity.TestTools.CodeCoverage.Editor.ref.dll"
@@ -339,7 +334,9 @@
 "Assets/Scripts/ControlaInterface.cs"
 "Assets/Scripts/ControlaJogador.cs"
 "Assets/Scripts/GeradorInimigos.cs"
+"Assets/Scripts/ICuravel.cs"
 "Assets/Scripts/IMatavel.cs"
+"Assets/Scripts/KitMedico.cs"
 "Assets/Scripts/MainCamera.cs"
 "Assets/Scripts/MovimentoJogador.cs"
 "Assets/Scripts/MovimentoPersonagem.cs"

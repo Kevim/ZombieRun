@@ -285,12 +285,22 @@
 -r:"Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Flow.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aP.dag/UnityEngine.UI.ref.dll"
+"Assets/Scripts/AnimacaoPersonagem.cs"
 "Assets/Scripts/Bala.cs"
+"Assets/Scripts/Constantes.cs"
 "Assets/Scripts/ControlaArma.cs"
+"Assets/Scripts/ControlaAudio.cs"
 "Assets/Scripts/ControlaInimigo.cs"
+"Assets/Scripts/ControlaInterface.cs"
 "Assets/Scripts/ControlaJogador.cs"
 "Assets/Scripts/GeradorInimigos.cs"
+"Assets/Scripts/IMatavel.cs"
 "Assets/Scripts/MainCamera.cs"
+"Assets/Scripts/MovimentoJogador.cs"
+"Assets/Scripts/MovimentoPersonagem.cs"
+"Assets/Scripts/Pontuacao.cs"
+"Assets/Scripts/Status.cs"
+"Assets/Scripts/utils/CalcUtils.cs"
 -langversion:9.0
 
 /deterministic

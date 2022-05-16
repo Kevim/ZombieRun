@@ -19,7 +19,9 @@ public class GeradorInimigos : MonoBehaviour
     private float contador = 0;
 
     private float distanciaGeracao = 3;
+
     public float DistanciaDoJogadorParaGeracao = 30;
+
     private GameObject jogador;
 
     void Start()
@@ -30,8 +32,7 @@ public class GeradorInimigos : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float distanciaDoJogador = Vector3.Distance(transform.position, jogador.transform.position);
-        if (Spawn && distanciaDoJogador > DistanciaDoJogadorParaGeracao)
+        if (Spawn)
         {
             contador += Time.deltaTime;
 
@@ -50,23 +51,41 @@ public class GeradorInimigos : MonoBehaviour
             bool hasPos = false;
             while (!hasPos)
             {
-                Vector3 pos = AleatorizarPosicao();
-                Collider[] colisores =
-                    Physics.OverlapSphere(pos, 1, layerZumbi);
-                if (colisores.Length == 0)
+                float distanciaDoJogador =
+                    Vector3
+                        .Distance(transform.position,
+                        jogador.transform.position);
+                if (distanciaDoJogador > DistanciaDoJogadorParaGeracao)
                 {
-                    finalPos = pos;
-                    hasPos = true;
+                    Vector3 pos = AleatorizarPosicao();
+                    Collider[] colisores =
+                        Physics.OverlapSphere(pos, 1, layerZumbi);
+                    if (colisores.Length == 0)
+                    {
+                        finalPos = pos;
+                        hasPos = true;
+                    }
+                    else
+                    {
+                        yield return null;
+                    }
                 }
                 else
                 {
-                    yield return null;
+                    break;
                 }
             }
-            Instantiate(Zumbi, finalPos, transform.rotation);
-            SpawnLimit--;
-            contador = 0;
-            spawnAmount--;
+            if (hasPos)
+            {
+                Instantiate(Zumbi, finalPos, transform.rotation);
+                SpawnLimit--;
+                contador = 0;
+                spawnAmount--;
+            }
+            else
+            {
+                break;
+            }
             yield return null;
         }
     }

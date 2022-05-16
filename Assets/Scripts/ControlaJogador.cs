@@ -1,13 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class ControlaJogador : MonoBehaviour, IMatavel
+public class ControlaJogador : MonoBehaviour, IMatavel, ICuravel
 {
     public LayerMask MascaraChao;
-
-    public GameObject TextoGameOver;
 
     public bool Vivo = true;
 
@@ -29,8 +26,6 @@ public class ControlaJogador : MonoBehaviour, IMatavel
 
     void Start()
     {
-        Time.timeScale = 1;
-        TextoGameOver.SetActive(false);
         this.animacaoPersonagem = GetComponent<AnimacaoPersonagem>();
         this.movimentoJogador = GetComponent<MovimentoJogador>();
         this.statusJogador = GetComponent<Status>();
@@ -44,11 +39,6 @@ public class ControlaJogador : MonoBehaviour, IMatavel
         direcao = new Vector3(eixoX, 0, eixoZ);
 
         animacaoPersonagem.Mover(direcao.magnitude);
-
-        if (!Vivo && Input.GetButtonDown("Fire1"))
-        {
-            SceneManager.LoadScene("game");
-        }
     }
 
     private void FixedUpdate()
@@ -70,10 +60,15 @@ public class ControlaJogador : MonoBehaviour, IMatavel
     {
         if (this.statusJogador.Vida <= 0)
         {
-            Time.timeScale = 0;
             this.statusJogador.Vida = 0;
             this.Vivo = false;
-            this.TextoGameOver.SetActive(true);
+            this.controlaInterface.GameOver();
         }
+    }
+
+    public void CurarVida(int quantidadeCura)
+    {
+        this.statusJogador.Vida = Mathf.Clamp(this.statusJogador.Vida + quantidadeCura, 0, this.statusJogador.VidaInicial);
+        controlaInterface.AtualizarSliderVidaJogador();
     }
 }
