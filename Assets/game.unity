@@ -14913,10 +14913,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jogador
       objectReference: {fileID: 0}
-    - target: {fileID: 8464203812107344105, guid: 3f2f26346191077478736deefedfcb9b, type: 3}
-      propertyPath: fireRate
-      value: 0.01
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f2f26346191077478736deefedfcb9b, type: 3}
 --- !u!1001 &3261591874086396239

@@ -13,503 +13,512 @@
 { "pid": 0, "tid": 1, "ts": 1653013448865707, "dur": 784974, "ph": "X", "name": "BuildProgram", "args": {} },
 { "pid": 0, "tid": 1, "ts": 1653013449650683, "dur": 982943, "ph": "X", "name": "Run Backend", "args": {} },
 { "pid": 0, "tid": 1, "ts": 1653013450633628, "dur": 1975, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1653013450636025, "dur": 18, "ph": "X", "name": "", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653013614155029, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653013614155048, "dur": 10965, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653013614166015, "dur": 323822, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653013614489838, "dur": 10008, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653013617722403, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653013617722426, "dur": 2299, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653013617724726, "dur": 148442, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653013617873169, "dur": 368585, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653013618241756, "dur": 971454, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653013619213212, "dur": 1397, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653013619215041, "dur": 30, "ph": "X", "name": "", "args": {} },
 { "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
 { "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
 { "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 35942, "tid": 1, "ts": 1653013449502871, "dur": 145834, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1653013449503716, "dur": 37505, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1653013449635308, "dur": 3985, "ph": "X", "name": "OutputData.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1653013449639295, "dur": 9399, "ph": "X", "name": "Backend.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1653013449639853, "dur": 7946, "ph": "X", "name": "JsonToString", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1653013449652750, "dur": 1074, "ph": "X", "name": "", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1653013449652108, "dur": 1735, "ph": "X", "name": "Write chrome-trace events", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1653013450636118, "dur": 128, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1653013618151849, "dur": 87687, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1653013618152685, "dur": 36901, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1653013618226056, "dur": 3973, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1653013618230031, "dur": 9497, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1653013618230595, "dur": 8046, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1653013618243402, "dur": 1088, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1653013618242751, "dur": 1757, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653013619215127, "dur": 129, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1653013449865352, "dur":2321, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653013449867680, "dur":137, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1653013449867830, "dur":14, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1653013449867846, "dur":507, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1653013449868383, "dur":582, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653013449868965, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653013450629205, "dur":388, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653013450629593, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653013450629614, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653013450629616, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653013450629624, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653013450629626, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653013450629633, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653013450629635, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653013450629642, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653013450629643, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653013450629650, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653013450629652, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653013450629658, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653013450629659, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653013450629665, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653013450629666, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653013450629673, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653013450629675, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653013450629680, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653013450629682, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653013450629688, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653013450629690, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653013450629695, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653013450629698, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653013450629704, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653013450629724, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653013450629789, "dur":6063, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1653013449869103, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653013449869104, "dur":2631, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653013449871748, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1653013449871754, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653013449873533, "dur":478, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1653013449874013, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1653013449874063, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653013449874529, "dur":5484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1653013449880017, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1653013449880054, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653013449881247, "dur":27346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1653013449908609, "dur":63658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653013449972273, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653013449972856, "dur":1923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653013449974799, "dur":26620, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653013450001426, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653013450001439, "dur":2126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653013450003611, "dur":16551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653013450020165, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653013450020174, "dur":1823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653013450022039, "dur":17097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653013450039141, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653013450039148, "dur":1725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653013450040912, "dur":40488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653013450081406, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653013450081416, "dur":2396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653013450083858, "dur":31427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653013450115291, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653013450115302, "dur":2011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653013450117352, "dur":30383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653013450147741, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653013450147749, "dur":7157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653013450154950, "dur":23860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653013450178816, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653013450178826, "dur":3906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653013450182774, "dur":30647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653013450213425, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653013450213429, "dur":13532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653013450227016, "dur":37656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653013450264677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653013450264685, "dur":1440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653013450266176, "dur":21255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653013450287437, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653013450287447, "dur":8387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653013450295890, "dur":174550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653013450470446, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653013450470454, "dur":2740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653013450473233, "dur":39991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653013450513227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653013450513232, "dur":9595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653013450522876, "dur":106326, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1653013449869206, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1653013449869207, "dur":2535, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1653013449871749, "dur":42648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":2, "ts":1653013449914401, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1653013449915033, "dur":57552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":2, "ts":1653013449972601, "dur":269541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":2, "ts":1653013450242148, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1653013450242157, "dur":2400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":2, "ts":1653013450244582, "dur":36756, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1653013450281342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1653013450281347, "dur":14380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1653013450295771, "dur":64670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":2, "ts":1653013450360447, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1653013450360458, "dur":4019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":2, "ts":1653013450364516, "dur":78631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":2, "ts":1653013450443152, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1653013450443159, "dur":1701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":2, "ts":1653013450444899, "dur":181270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":2, "ts":1653013450626173, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1653013450626181, "dur":2948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":2, "ts":1653013450629154, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":2, "ts":1653013450629156, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653013449869142, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653013449869143, "dur":2600, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653013449871749, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1653013449871819, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653013449876059, "dur":32393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1653013449908473, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":3, "ts":1653013449908513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653013449908574, "dur":65165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":3, "ts":1653013449973776, "dur":14296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653013449988077, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653013449988738, "dur":1674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653013449990444, "dur":27934, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653013450018383, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653013450018392, "dur":2420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653013450020855, "dur":17391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653013450038251, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653013450038260, "dur":2422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653013450040816, "dur":14900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653013450055721, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653013450055729, "dur":1471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653013450057236, "dur":46886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653013450104128, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653013450104137, "dur":1613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653013450105793, "dur":19637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653013450125435, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653013450125443, "dur":3232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653013450128724, "dur":18271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653013450147002, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653013450147013, "dur":4008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653013450151144, "dur":30631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653013450181778, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653013450181786, "dur":5103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653013450186976, "dur":22161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653013450209142, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653013450209152, "dur":4357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653013450213552, "dur":19529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653013450233086, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653013450233095, "dur":1544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653013450234685, "dur":20830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653013450255520, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653013450255530, "dur":1541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653013450257109, "dur":32557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653013450289671, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653013450289680, "dur":6738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653013450296459, "dur":194968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653013450491432, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653013450491442, "dur":6812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653013450498286, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":3, "ts":1653013450498323, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653013450498327, "dur":17859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":3, "ts":1653013450516225, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/resources.assets" }}
-,{ "pid":12345, "tid":3, "ts":1653013450516265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653013450516273, "dur":2431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/resources.assets" }}
-,{ "pid":12345, "tid":3, "ts":1653013450518743, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":3, "ts":1653013450518780, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653013450518784, "dur":6060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":3, "ts":1653013450524892, "dur":104319, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653013449869193, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653013449869194, "dur":2549, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653013449871748, "dur":20723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1653013449892474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653013449892487, "dur":1492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1653013449894000, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1653013449894032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653013449894037, "dur":166349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1653013450060415, "dur":113084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":4, "ts":1653013450173563, "dur":128, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653013450173699, "dur":2425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":4, "ts":1653013450176201, "dur":57502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1653013450233707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653013450233715, "dur":4374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1653013450238153, "dur":22691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1653013450260850, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653013450260860, "dur":2470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1653013450263378, "dur":27147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1653013450290528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653013450290533, "dur":6258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1653013450296833, "dur":53896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":4, "ts":1653013450350732, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653013450350741, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":4, "ts":1653013450351775, "dur":58588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":4, "ts":1653013450410423, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653013450410512, "dur":3147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":4, "ts":1653013450413791, "dur":99152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1653013450512946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653013450512951, "dur":6231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1653013450519225, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":4, "ts":1653013450519266, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653013450519270, "dur":5092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":4, "ts":1653013450524403, "dur":104798, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1653013449869250, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1653013449869251, "dur":2577, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1653013449871829, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":5, "ts":1653013449871992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1653013449878606, "dur":179550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":5, "ts":1653013450058187, "dur":118353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1653013450176544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1653013450176553, "dur":5060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1653013450181654, "dur":28521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1653013450210180, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1653013450210187, "dur":3630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1653013450213855, "dur":17229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1653013450231090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1653013450231100, "dur":1257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1653013450232398, "dur":84131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1653013450316534, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1653013450316543, "dur":2464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1653013450319041, "dur":121344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":5, "ts":1653013450440391, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1653013450440401, "dur":1701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":5, "ts":1653013450442142, "dur":28021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":5, "ts":1653013450470169, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1653013450470180, "dur":2148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":5, "ts":1653013450472368, "dur":122289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":5, "ts":1653013450594662, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1653013450594671, "dur":1661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":5, "ts":1653013450596360, "dur":32849, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653013449869299, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653013449869300, "dur":2514, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653013449871817, "dur":14659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1653013449886481, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653013449886497, "dur":1280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1653013449887793, "dur":23117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1653013449910945, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653013449910956, "dur":61799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1653013449972781, "dur":28998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun.exe" }}
-,{ "pid":12345, "tid":6, "ts":1653013450001785, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653013450001793, "dur":2303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun.exe" }}
-,{ "pid":12345, "tid":6, "ts":1653013450004138, "dur":24710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653013450028853, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653013450028862, "dur":1671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653013450030594, "dur":14875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653013450045474, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653013450045501, "dur":1160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653013450046704, "dur":57626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653013450104335, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653013450104343, "dur":3554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653013450107949, "dur":44837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653013450152796, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653013450152806, "dur":10351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653013450163245, "dur":38683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653013450201935, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653013450201945, "dur":5699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653013450209035, "dur":17460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653013450226501, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653013450226510, "dur":5011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653013450231605, "dur":16318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653013450247930, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653013450247941, "dur":6336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653013450254315, "dur":18324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653013450272642, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653013450272651, "dur":8959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653013450281674, "dur":72918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653013450354598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653013450354607, "dur":4351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653013450359908, "dur":23680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653013450383594, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653013450383604, "dur":1205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653013450384864, "dur":153890, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653013450538758, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653013450538767, "dur":2193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653013450540988, "dur":88237, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1653013449869346, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1653013449869347, "dur":2456, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1653013449871808, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":7, "ts":1653013449871862, "dur":26, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1653013449878161, "dur":94867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":7, "ts":1653013449973055, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":7, "ts":1653013449973089, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1653013449974102, "dur":222269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":7, "ts":1653013450196401, "dur":80375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1653013450276798, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1653013450276810, "dur":15545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1653013450292399, "dur":50373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":7, "ts":1653013450342777, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1653013450342787, "dur":7340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":7, "ts":1653013450350204, "dur":126612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":7, "ts":1653013450476822, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1653013450476832, "dur":2334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":7, "ts":1653013450479207, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":7, "ts":1653013450479246, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1653013450479719, "dur":2460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":7, "ts":1653013450482215, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":7, "ts":1653013450482252, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1653013450482258, "dur":4363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":7, "ts":1653013450486674, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1653013450486712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1653013450486719, "dur":2251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1653013450489023, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":7, "ts":1653013450489093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1653013450489100, "dur":3750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":7, "ts":1653013450492890, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":7, "ts":1653013450492923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1653013450492930, "dur":4790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":7, "ts":1653013450497781, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1653013450497822, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1653013450497828, "dur":26888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1653013450524757, "dur":104461, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1653013449869408, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1653013449869408, "dur":2382, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1653013449871795, "dur":20484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1653013449892284, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1653013449892301, "dur":1611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1653013449893933, "dur":17883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1653013449911821, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1653013449911830, "dur":60694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1653013449972535, "dur":524872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":8, "ts":1653013450497412, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1653013450497831, "dur":28323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":8, "ts":1653013450526177, "dur":103048, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1653013449869455, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1653013449869456, "dur":2324, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1653013449871784, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":9, "ts":1653013449871829, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1653013449876330, "dur":32110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":9, "ts":1653013449908460, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":9, "ts":1653013449908512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1653013449908568, "dur":65348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":9, "ts":1653013449973943, "dur":15106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1653013449989052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1653013449989349, "dur":1596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1653013449990994, "dur":27268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1653013450018267, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1653013450018277, "dur":1718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1653013450020031, "dur":61992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1653013450082027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1653013450082032, "dur":2760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1653013450084833, "dur":36053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1653013450120892, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1653013450120902, "dur":2184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1653013450123145, "dur":24249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1653013450147398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1653013450147403, "dur":8713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1653013450156155, "dur":20567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1653013450176727, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1653013450176767, "dur":6045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1653013450182885, "dur":27822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1653013450210710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1653013450210715, "dur":8842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1653013450219620, "dur":48085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1653013450267709, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1653013450267719, "dur":8435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1653013450276206, "dur":75130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":9, "ts":1653013450351339, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1653013450351345, "dur":3734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":9, "ts":1653013450355129, "dur":55861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":9, "ts":1653013450410995, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1653013450411003, "dur":4913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":9, "ts":1653013450415984, "dur":95464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":9, "ts":1653013450511455, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1653013450511465, "dur":6043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":9, "ts":1653013450517559, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/level0" }}
-,{ "pid":12345, "tid":9, "ts":1653013450517599, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1653013450517604, "dur":6756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/level0" }}
-,{ "pid":12345, "tid":9, "ts":1653013450524402, "dur":104798, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1653013449869513, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1653013449869514, "dur":2255, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1653013449871774, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":10, "ts":1653013449871832, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1653013449877645, "dur":178203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":10, "ts":1653013450055869, "dur":26044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1653013450081916, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1653013450081922, "dur":6533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1653013450088523, "dur":76106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1653013450165136, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1653013450165145, "dur":4831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1653013450170030, "dur":26654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1653013450196687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1653013450196695, "dur":9347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1653013450206088, "dur":20363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1653013450226458, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1653013450226466, "dur":6099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1653013450232605, "dur":24054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1653013450256664, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1653013450256674, "dur":5549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1653013450262264, "dur":102120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1653013450364389, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1653013450364398, "dur":4650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1653013450369107, "dur":28585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":10, "ts":1653013450397697, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1653013450397706, "dur":2349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":10, "ts":1653013450400129, "dur":32945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":10, "ts":1653013450433080, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1653013450433090, "dur":2254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":10, "ts":1653013450435385, "dur":85268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":10, "ts":1653013450520656, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1653013450520666, "dur":2468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":10, "ts":1653013450523175, "dur":106041, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1653013449869553, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1653013449869553, "dur":2206, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1653013449871763, "dur":14793, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":11, "ts":1653013449886559, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1653013449886570, "dur":1388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":11, "ts":1653013449887983, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":11, "ts":1653013449888020, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1653013449888092, "dur":84409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":11, "ts":1653013449972521, "dur":159293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":11, "ts":1653013450131819, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1653013450131904, "dur":6320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":11, "ts":1653013450138253, "dur":19329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1653013450157586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1653013450157594, "dur":5217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1653013450162899, "dur":20868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1653013450183771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1653013450183779, "dur":3760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1653013450187634, "dur":33252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1653013450220891, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1653013450220900, "dur":7010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1653013450227948, "dur":22101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1653013450250055, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1653013450250064, "dur":2248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1653013450252350, "dur":28973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1653013450281329, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1653013450281339, "dur":14490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1653013450295893, "dur":77935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":11, "ts":1653013450373833, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1653013450373842, "dur":2129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":11, "ts":1653013450376017, "dur":130150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":11, "ts":1653013450506192, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1653013450506203, "dur":2210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":11, "ts":1653013450508456, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":11, "ts":1653013450508603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1653013450508611, "dur":1465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":11, "ts":1653013450510116, "dur":953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":11, "ts":1653013450511075, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1653013450511084, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":11, "ts":1653013450512480, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":11, "ts":1653013450512518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1653013450512528, "dur":4241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":11, "ts":1653013450516858, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/level1" }}
-,{ "pid":12345, "tid":11, "ts":1653013450516920, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1653013450516927, "dur":3559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/level1" }}
-,{ "pid":12345, "tid":11, "ts":1653013450520550, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/boot.config" }}
-,{ "pid":12345, "tid":11, "ts":1653013450520687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1653013450520691, "dur":3949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/boot.config" }}
-,{ "pid":12345, "tid":11, "ts":1653013450524711, "dur":104503, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1653013449869592, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1653013449869592, "dur":2158, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1653013449871754, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":12, "ts":1653013449871830, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1653013449875629, "dur":97685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":12, "ts":1653013449973333, "dur":39529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1653013450012868, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1653013450012876, "dur":1620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1653013450014534, "dur":14851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1653013450029389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1653013450029394, "dur":2384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1653013450031835, "dur":14415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1653013450046254, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1653013450046260, "dur":2050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1653013450048349, "dur":18371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1653013450066725, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1653013450066734, "dur":1502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1653013450068289, "dur":18754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1653013450087049, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1653013450087083, "dur":4335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1653013450091456, "dur":36797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1653013450128328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1653013450128337, "dur":6953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1653013450135333, "dur":26538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1653013450161922, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1653013450161933, "dur":2726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1653013450164707, "dur":48402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1653013450213114, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1653013450213123, "dur":14756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1653013450227929, "dur":40021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":12, "ts":1653013450267954, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1653013450267960, "dur":4625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":12, "ts":1653013450272623, "dur":30181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":12, "ts":1653013450302809, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1653013450302818, "dur":1351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":12, "ts":1653013450304205, "dur":71015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":12, "ts":1653013450375227, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1653013450375236, "dur":2674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":12, "ts":1653013450377952, "dur":152613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":12, "ts":1653013450530571, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1653013450530607, "dur":3026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v1/3D ZombieRun_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":12, "ts":1653013450533664, "dur":95555, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653013450638512, "dur":1591, "ph":"X", "name": "ProfilerWriteOutput" }
-,{ "pid": 0, "tid": 1, "ts": 1653013450636287, "dur": 453, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1653013450636013, "dur": 740, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+,{ "pid":12345, "tid":0, "ts":1653013618437847, "dur":2278, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653013618440132, "dur":139, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1653013618440284, "dur":13, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1653013618440298, "dur":499, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1653013618440822, "dur":469, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653013618441291, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653013619208805, "dur":331, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653013619209137, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653013619209160, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653013619209165, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653013619209183, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653013619209185, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653013619209190, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653013619209192, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653013619209197, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653013619209199, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653013619209204, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653013619209205, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653013619209211, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653013619209212, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653013619209217, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653013619209219, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653013619209223, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653013619209225, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653013619209229, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653013619209230, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653013619209236, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653013619209237, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653013619209242, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653013619209243, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653013619209249, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653013619209259, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653013619209316, "dur":5906, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1653013618441396, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653013618441396, "dur":2532, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653013618443939, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1653013618444002, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653013618450182, "dur":2269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1653013618452476, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1653013618452494, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653013618452502, "dur":56654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1653013618509173, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1653013618509191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653013618510754, "dur":38529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1653013618549313, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653013618549371, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653013618549380, "dur":33817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653013618583245, "dur":139032, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653013618722286, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653013618722298, "dur":5739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653013618728097, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653013618728178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653013618728382, "dur":83039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653013618811467, "dur":97570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653013618909277, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653013618909288, "dur":17270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653013618926606, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653013618926646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653013618926683, "dur":117412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653013619044131, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653013619044166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653013619044173, "dur":141184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653013619185384, "dur":23425, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653013618441337, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653013618441339, "dur":2581, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653013618443938, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1653013618443940, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653013618444010, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1653013618444014, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653013618509204, "dur":3457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1653013618512663, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653013618512712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653013618512962, "dur":36385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653013618549382, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653013618549420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653013618549425, "dur":33969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653013618583431, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653013618583471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653013618583478, "dur":31668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653013618615199, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653013618615245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653013618615252, "dur":50729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653013618666016, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653013618666058, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653013618666141, "dur":73502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653013618739680, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653013618739717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653013618739725, "dur":40891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653013618780659, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653013618780721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653013618780740, "dur":42283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653013618823136, "dur":76410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653013618899553, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653013618899563, "dur":1368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653013618900965, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653013618901002, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653013618901007, "dur":79898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653013618980936, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653013618980972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653013618980977, "dur":122571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653013619103601, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1653013619103654, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653013619103660, "dur":6794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1653013619110504, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1653013619110623, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653013619110626, "dur":3585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1653013619114259, "dur":94583, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653013618441382, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653013618441383, "dur":2543, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653013618443938, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1653013618443986, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653013618449713, "dur":1777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1653013618451511, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1653013618451553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653013618451966, "dur":56402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1653013618508405, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653013618508434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653013618508491, "dur":9652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653013618518172, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653013618518224, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653013618518234, "dur":40154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653013618558438, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653013618558482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653013618558486, "dur":35139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653013618593677, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653013618593793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653013618593799, "dur":61585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653013618655421, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653013618655465, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653013618655471, "dur":42529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653013618698156, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653013618698203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653013618698210, "dur":63684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653013618761929, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653013618761970, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653013618761974, "dur":40310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653013618802320, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653013618802368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653013618802376, "dur":54241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653013618856654, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653013618856689, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653013618856698, "dur":70414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653013618927240, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653013618927408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653013618927413, "dur":52365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653013618979816, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653013618979874, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653013618979881, "dur":127683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653013619107610, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1653013619107668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653013619107675, "dur":5993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1653013619113713, "dur":95088, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653013618441435, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653013618441436, "dur":2502, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653013618443939, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1653013618444032, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653013618460068, "dur":49882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1653013618509967, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653013618510144, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653013618511749, "dur":73530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653013618585318, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653013618585360, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653013618585367, "dur":57081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653013618642483, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653013618642524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653013618642531, "dur":34353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653013618676921, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653013618676959, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653013618676967, "dur":47463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653013618724474, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653013618724524, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653013618724531, "dur":53470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653013618778050, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653013618778090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653013618778097, "dur":61713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653013618839849, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653013618839889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653013618839896, "dur":123800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653013618963734, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653013618963774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653013618963781, "dur":168398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653013619132208, "dur":76662, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653013618441483, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653013618441484, "dur":2443, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653013618443938, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1653013618443981, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653013618446755, "dur":3044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1653013618449823, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1653013618449847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653013618450783, "dur":57672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1653013618508476, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653013618508498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653013618508503, "dur":21460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653013618529987, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653013618530058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653013618530066, "dur":79436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653013618609549, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653013618609595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653013618609603, "dur":55876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653013618665520, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653013618665570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653013618665578, "dur":41510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653013618707144, "dur":1032, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653013618708179, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653013618708189, "dur":52642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653013618760888, "dur":621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653013618761512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653013618761520, "dur":36431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653013618798007, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653013618798156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653013618798385, "dur":124287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653013618922713, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653013618922757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653013618922765, "dur":43752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653013618966557, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653013618966595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653013618966600, "dur":141246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653013619107887, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1653013619107926, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653013619107930, "dur":5828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1653013619113865, "dur":95000, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653013618441527, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653013618441527, "dur":2408, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653013618443939, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1653013618444041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653013618465057, "dur":48078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1653013618513166, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653013618513238, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653013618513474, "dur":41823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653013618555339, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653013618555382, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653013618555389, "dur":37079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653013618592517, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653013618592563, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653013618592568, "dur":107969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653013618700571, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653013618700608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653013618700615, "dur":65000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653013618765653, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653013618765691, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653013618765699, "dur":61918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653013618827656, "dur":255569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653013619083232, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653013619083243, "dur":1994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653013619085300, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1653013619085407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653013619085456, "dur":1283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1653013619086772, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":6, "ts":1653013619086806, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653013619086811, "dur":4000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":6, "ts":1653013619090851, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1653013619090889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653013619090898, "dur":2164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1653013619093093, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":6, "ts":1653013619093127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653013619093133, "dur":2428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":6, "ts":1653013619095600, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1653013619095636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653013619095643, "dur":20444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1653013619116317, "dur":92508, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653013618441564, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653013618441565, "dur":2378, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653013618443943, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1653013618443982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653013618447036, "dur":2673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1653013618449734, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1653013618449753, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653013618451335, "dur":1693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1653013618453039, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1653013618453049, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653013618453065, "dur":55939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1653013618509025, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun.exe" }}
+,{ "pid":12345, "tid":7, "ts":1653013618509086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653013618509090, "dur":48822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun.exe" }}
+,{ "pid":12345, "tid":7, "ts":1653013618557951, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653013618557996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653013618558003, "dur":68258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653013618626309, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653013618626366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653013618626373, "dur":34768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653013618661181, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653013618661221, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653013618661228, "dur":86120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653013618747393, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653013618747443, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653013618747450, "dur":42591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653013618790118, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653013618790163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653013618790173, "dur":60534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653013618850748, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653013618850787, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653013618850794, "dur":242140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653013619092972, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1653013619093110, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653013619093122, "dur":4145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1653013619097308, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1653013619097347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653013619097354, "dur":3630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1653013619101024, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1653013619101148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653013619101155, "dur":2334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1653013619103532, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1653013619103569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653013619103576, "dur":4572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1653013619108566, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1653013619108626, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653013619108631, "dur":4683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1653013619113366, "dur":95438, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653013618441605, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653013618441605, "dur":2352, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653013618443958, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1653013618444034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653013618460598, "dur":49973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1653013618510600, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653013618510649, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653013618511861, "dur":28460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653013618540359, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653013618540405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653013618540413, "dur":31250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653013618571693, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653013618571734, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653013618571741, "dur":130821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653013618702602, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653013618702645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653013618702651, "dur":113116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653013618815805, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653013618815851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653013618815860, "dur":71780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653013618887677, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653013618887715, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653013618887722, "dur":79235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653013618966994, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653013618967035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653013618967039, "dur":148420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653013619115496, "dur":93340, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1653013618441642, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1653013618441642, "dur":2325, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1653013618443967, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1653013618444022, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1653013618459519, "dur":51900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1653013618511436, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1653013618511526, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1653013618513062, "dur":42495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1653013618555601, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1653013618555642, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1653013618555645, "dur":60684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1653013618616366, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1653013618616402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1653013618616408, "dur":39391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1653013618655832, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1653013618655872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1653013618655877, "dur":53626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1653013618709539, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1653013618709585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1653013618709593, "dur":48363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1653013618757990, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1653013618758028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1653013618758033, "dur":44247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1653013618802320, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1653013618802369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1653013618802376, "dur":59940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1653013618862355, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1653013618862394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1653013618862402, "dur":159479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1653013619021920, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1653013619021966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1653013619021973, "dur":186758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1653013619208760, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":9, "ts":1653013619208761, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1653013618441679, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1653013618441680, "dur":2272, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1653013618443952, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1653013618444004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1653013618450671, "dur":1815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1653013618452507, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1653013618452538, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1653013618452541, "dur":1622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1653013618454185, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653013618454206, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1653013618454607, "dur":56412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653013618511042, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653013618511362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1653013618513190, "dur":48337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653013618561564, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653013618561593, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1653013618561598, "dur":42263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653013618603919, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653013618603963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1653013618603972, "dur":40433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653013618644453, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653013618644494, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1653013618644498, "dur":6026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653013618650581, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653013618650624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1653013618650631, "dur":32140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653013618682814, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653013618682866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1653013618682873, "dur":59142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653013618742096, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653013618742201, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1653013618742210, "dur":61013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653013618803268, "dur":63758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653013618867034, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1653013618867049, "dur":2634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653013618869725, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653013618869804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1653013618869813, "dur":131604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653013619001456, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653013619001495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1653013619001503, "dur":50468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653013619052010, "dur":45582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653013619097595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1653013619097600, "dur":5105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653013619102750, "dur":1314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1653013619104068, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1653013619104072, "dur":6386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1653013619110500, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1653013619110538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1653013619110545, "dur":3595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1653013619114184, "dur":94671, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1653013618441726, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1653013618441727, "dur":2232, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1653013618443959, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1653013618444021, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1653013618456564, "dur":54201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1653013618510782, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1653013618510833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1653013618513258, "dur":36749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1653013618550058, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1653013618550109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1653013618550114, "dur":41726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1653013618591879, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1653013618591920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1653013618591928, "dur":51862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1653013618643831, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1653013618643869, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1653013618643874, "dur":59247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1653013618703161, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1653013618703440, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1653013618703446, "dur":53357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1653013618756847, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1653013618756885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1653013618756894, "dur":102596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1653013618859533, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1653013618859574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1653013618859583, "dur":106134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1653013618965749, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1653013618965788, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1653013618965795, "dur":163016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1653013619128852, "dur":79962, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1653013618441762, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1653013618441763, "dur":2167, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1653013618443939, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1653013618443993, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1653013618449804, "dur":2077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1653013618451898, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1653013618451917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1653013618452035, "dur":56481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1653013618508534, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1653013618508555, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1653013618508558, "dur":4078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1653013618512658, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653013618512714, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1653013618512929, "dur":51322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653013618564289, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653013618564336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1653013618564343, "dur":62102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653013618626488, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653013618626532, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1653013618626538, "dur":46778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653013618673358, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653013618673396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1653013618673403, "dur":72117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653013618745566, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653013618745621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1653013618745629, "dur":65781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653013618811449, "dur":121905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653013618933359, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1653013618933368, "dur":1582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653013618934988, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653013618935026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1653013618935032, "dur":176865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/BuildWindows/v0.2/3D ZombieRun_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653013619111946, "dur":96860, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653013619217827, "dur":1542, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1653013619215298, "dur": 423, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653013619215030, "dur": 705, "ph": "X", "name": "Write chrome-trace events", "args": {} },
