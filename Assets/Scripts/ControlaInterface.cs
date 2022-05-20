@@ -15,6 +15,7 @@ public class ControlaInterface : MonoBehaviour
     public TextMeshProUGUI TextoPontuacaoFinal;
     public TextMeshProUGUI TextoPontuacaoMax;
     public GameObject NewRecord;
+    public TextMeshProUGUI TextoChefeApareceu;
     string textoTempoSobrevivencia;
 
     // Start is called before the first frame update
@@ -51,5 +52,27 @@ public class ControlaInterface : MonoBehaviour
 
     public void Reiniciar() {
         SceneManager.LoadScene("game");
+    }
+
+    public void ExibirTextoChefeApareceu(){
+        StartCoroutine(ExibirESumirTextoChefeApareceu(2, this.TextoChefeApareceu));
+    }
+
+    IEnumerator ExibirESumirTextoChefeApareceu(float tempoSumir, TextMeshProUGUI texto) {
+        texto.gameObject.SetActive(true);
+        Color corTexto = texto.color;
+        corTexto.a = 1;
+        texto.color = corTexto;
+        yield return new WaitForSeconds(1);
+        float contador = 0;
+        while(corTexto.a > 0) {
+            contador += Time.deltaTime / tempoSumir;
+            corTexto.a = Mathf.Lerp(1, 0, contador);
+            texto.color = corTexto;
+            if (corTexto.a == 0) {
+                texto.gameObject.SetActive(false);
+            }
+            yield return null;
+        }
     }
 }

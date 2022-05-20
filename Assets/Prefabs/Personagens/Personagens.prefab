@@ -2670,7 +2670,6 @@ MonoBehaviour:
   MascaraChao:
     serializedVersion: 2
     m_Bits: 64
-  TextoGameOver: {fileID: 0}
   Vivo: 1
   controlaInterface: {fileID: 0}
   SomDano: {fileID: 8300000, guid: 1888f4ed25a77134fa224672ad098f83, type: 3}

@@ -18,4 +18,8 @@ public class AnimacaoPersonagem : MonoBehaviour
     public void Mover(float direcao) {
         animator.SetFloat(Constantes.MOVENDO_STRING, direcao);
     }
+
+    public void Morrer(){
+        animator.SetTrigger(Constantes.MORRER_STRING);
+    }
 }

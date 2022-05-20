@@ -16,8 +16,8 @@ GameObject:
   m_Name: PosteDeLuz
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &4514499278929870
 Transform:
@@ -112,8 +112,8 @@ GameObject:
   m_Name: Spot Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &3730712838148492566
 Transform:
@@ -142,7 +142,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 0.96005946, g: 0.9716981, b: 0.637104, a: 1}
-  m_Intensity: 8.5
+  m_Intensity: 15
   m_Range: 10
   m_SpotAngle: 62.73
   m_InnerSpotAngle: 21.80208

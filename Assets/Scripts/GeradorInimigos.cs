@@ -20,6 +20,13 @@ public class GeradorInimigos : MonoBehaviour
 
     private float distanciaGeracao = 3;
 
+    private int quantidadeMaxZumbisVivos = 5;
+
+    private int quantidadeZumbisVivos = 0;
+    
+    public float tempoAumentoDificuldade = 30;
+    private float contadorAumentarDificuldade;
+
     public float DistanciaDoJogadorParaGeracao = 30;
 
     private GameObject jogador;
@@ -27,16 +34,23 @@ public class GeradorInimigos : MonoBehaviour
     void Start()
     {
         jogador = GameObject.FindWithTag(Constantes.TAG_JOGADOR);
+        this.quantidadeMaxZumbisVivos = this.SpawnAmount * 3;
+        this.contadorAumentarDificuldade = this.tempoAumentoDificuldade;
+        StartCoroutine(GerarNovoZumbi(SpawnAmount));
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Time.timeSinceLevelLoad > contadorAumentarDificuldade) {
+            this.quantidadeMaxZumbisVivos += SpawnAmount;
+            this.contadorAumentarDificuldade = Time.timeSinceLevelLoad + tempoAumentoDificuldade;
+        }
         if (Spawn)
         {
             contador += Time.deltaTime;
 
-            if (contador >= SpawnTime)
+            if (contador >= SpawnTime && SpawnHabilitado(SpawnAmount))
             {
                 StartCoroutine(GerarNovoZumbi(SpawnAmount));
             }
@@ -45,11 +59,11 @@ public class GeradorInimigos : MonoBehaviour
 
     IEnumerator GerarNovoZumbi(int spawnAmount)
     {
-        while (spawnAmount > 0 && SpawnLimit > 0)
+        while (SpawnHabilitado(spawnAmount))
         {
             Vector3 finalPos = Vector3.zero;
             bool hasPos = false;
-            while (!hasPos)
+            while (!hasPos && SpawnHabilitado(spawnAmount))
             {
                 float distanciaDoJogador =
                     Vector3
@@ -77,8 +91,10 @@ public class GeradorInimigos : MonoBehaviour
             }
             if (hasPos)
             {
-                Instantiate(Zumbi, finalPos, transform.rotation);
-                SpawnLimit--;
+                ControlaInimigo game = Instantiate(Zumbi, finalPos, transform.rotation).GetComponent<ControlaInimigo>();
+                game.geradorInimigo = this;
+                this.quantidadeZumbisVivos++;
+                this.SpawnLimit--;
                 contador = 0;
                 spawnAmount--;
             }
@@ -88,6 +104,10 @@ public class GeradorInimigos : MonoBehaviour
             }
             yield return null;
         }
+    }
+
+    private bool SpawnHabilitado(int spawnAmount){
+        return spawnAmount > 0 && SpawnLimit > 0 && this.quantidadeZumbisVivos < this.quantidadeMaxZumbisVivos;
     }
 
     private Vector3 AleatorizarPosicao()
@@ -102,5 +122,9 @@ public class GeradorInimigos : MonoBehaviour
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, this.distanciaGeracao);
+    }
+
+    public void DiminuirQuantidadeZumbisVivos() {
+        this.quantidadeZumbisVivos--;
     }
 }

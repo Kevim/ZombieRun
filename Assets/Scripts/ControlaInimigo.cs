@@ -18,6 +18,9 @@ public class ControlaInimigo : MonoBehaviour, IMatavel
     public AudioClip SomMorte;
 
     public GameObject KitMedicoPrefab;
+    [HideInInspector]
+    public GeradorInimigos geradorInimigo;
+    public GameObject ParticulaSangue;
 
     private AnimacaoPersonagem animacaoInimigo;
 
@@ -36,6 +39,7 @@ public class ControlaInimigo : MonoBehaviour, IMatavel
     private float tempoEntrePosicoesAleatorias = 4f;
 
     private float percentagemDropKitMedico = 0.1f;
+    private bool vivo = true;
 
     // Start is called before the first frame update
     void Start()
@@ -97,7 +101,7 @@ public class ControlaInimigo : MonoBehaviour, IMatavel
         if (contadorVagar <= 0)
         {
             this.posicaoAleatoria = aleatorizarPosicao();
-            this.contadorVagar = this.tempoEntrePosicoesAleatorias;
+            this.contadorVagar = this.tempoEntrePosicoesAleatorias + Random.Range(-2f, 2f);
         }
         bool longeDoDestino =
             Vector3.Distance(transform.position, posicaoAleatoria) > 0.15;
@@ -124,8 +128,12 @@ public class ControlaInimigo : MonoBehaviour, IMatavel
 
     private void CriarZumbiAleatorio()
     {
-        int randomZombieSkin = Random.Range(1, 28);
+        int randomZombieSkin = Random.Range(1, transform.childCount);
         transform.GetChild(randomZombieSkin).gameObject.SetActive(true);
+    }
+
+    public void JorrarSangue(Vector3 pos, Quaternion rotacao){
+        Instantiate(ParticulaSangue, pos, rotacao);
     }
 
     public void TomarDano(int dano)
@@ -136,12 +144,17 @@ public class ControlaInimigo : MonoBehaviour, IMatavel
 
     public void VerificaMorte()
     {
-        if (this.status.Vida <= 0)
+        if (this.status.Vida <= 0 && this.vivo)
         {
+            this.vivo = false;
             Pontuacao.instance.IncreaseScore(1f);
             ControlaAudio.instancia.PlayOneShot(this.SomMorte);
-            Destroy (gameObject);
             this.VerificaDroparKitMedico(this.percentagemDropKitMedico);
+            this.geradorInimigo.DiminuirQuantidadeZumbisVivos();
+            this.animacaoInimigo.Morrer();
+            this.movimentoInimigo.Morrer();
+            this.enabled = false;
+            Destroy (gameObject, 2);
         }
     }
 

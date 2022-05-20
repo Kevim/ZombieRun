@@ -10,8 +10,6 @@ public class Bala : MonoBehaviour
 
     private int danoTiro = 1;
 
-    private float contador = 0;
-
     void Start()
     {
         rigidbodyBala = GetComponent<Rigidbody>();
@@ -19,10 +17,7 @@ public class Bala : MonoBehaviour
 
     void Update()
     {
-        contador += Time.deltaTime;
-        if (contador >= 5) {
-            Destroy(gameObject);
-        }
+        Destroy(gameObject, 5);
     }
 
     // Update is called once per frame
@@ -35,11 +30,21 @@ public class Bala : MonoBehaviour
 
     void OnTriggerEnter(Collider objetoDeColisao)
     {
-        if (objetoDeColisao.tag == Constantes.TAG_INIMIGO)
+        Quaternion rotacao = Quaternion.LookRotation(-transform.forward);
+        switch (objetoDeColisao.tag)
         {
-            objetoDeColisao
-                .GetComponent<ControlaInimigo>()
-                .TomarDano(this.danoTiro);
+            case Constantes.TAG_INIMIGO:
+                ControlaInimigo inimigo =
+                    objetoDeColisao.GetComponent<ControlaInimigo>();
+                inimigo.TomarDano(this.danoTiro);
+                inimigo.JorrarSangue(transform.position, rotacao);
+                break;
+            case Constantes.TAG_CHEFE:
+                ControlaChefe chefe =
+                    objetoDeColisao.GetComponent<ControlaChefe>();
+                chefe.TomarDano(this.danoTiro);
+                chefe.JorrarSangue(transform.position, rotacao);
+                break;
         }
         Destroy (gameObject);
     }
